@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ojp-openapi-hints>
+  <complexType name="Leg" path="/TripLegStructure"/>
+  <choice name="notVia" path="/NotViaStructure"/>
+  <choice name="legs" path="/TripLegStructure"/>
+  <choice name="mode" path="/TransferLegStructure"/>
+  
+</ojp-openapi-hints>
